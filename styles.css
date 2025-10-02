@@ -1,0 +1,90 @@
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #c07299;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Estilo para encabezados */
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Centrar contenido del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo de los inputs y selects */
+/* Estilo de los inputs y selects */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #c07299; /* Borde gris claro */
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+input:hover, select:hover {
+    border: 2px solid #c07299; /* Borde azul al hacer hover */
+}
+
+
+/* Estilos para el botón */
+button {
+    padding: 12px 20px;
+    background-color: #c07299;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d96e9e;
+}
+
+/* Estilos para el mensaje de éxito */
+#message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c07299;
+}
+
+/* Estilos para los campos del formulario */
+.form-group {
+    width: 100%;
+}
